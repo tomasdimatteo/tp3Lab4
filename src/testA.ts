@@ -1,3 +1,7 @@
+//Para ejecutar el código se siguen los siguientes pasos:
+//tsc (directorio del archivo .ts principal) -> Hará la conversión de .ts a .js
+//node (directorio del archivo .js principal) -> Ejecutará el archivo principal con node.
+
 import { HojaRuta } from "./class/partA/hojaRuta";
 import { Detalle } from "./class/partA/detalle";
 import { Vehiculo } from "./class/partA/vehiculo";
