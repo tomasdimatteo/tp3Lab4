@@ -50,5 +50,5 @@ const tipoPago:string = 'E'
 const totalPorTipoDePago:number = cliente01.totalFacturadoXTipoPago(tipoPago)
 
 console.log('----------------------------------')
-console.log(`En la factura 01, con el tipo de pago: ${tipoPago} el subtotal fue de: $${totalPorTipoDePago}`);
+console.log(`En la factura 01 con el tipo de pago: ${tipoPago} el subtotal fue de: $${totalPorTipoDePago}`);
 console.log('----------------------------------')
