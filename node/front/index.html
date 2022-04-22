@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>EMPLEADOS | ABM</title>
+</head>
+<body>
+    <div class="container">
+    <section>
+        <header>
+        <h2 id="tituloForm">AGREGAR EMPLEADO</h2>
+        </header>
+        <form>
+            Legajo 
+            <input type="text" name="legajo" id="legajoInput"/>
+            Nombre 
+            <input type="text" name="nombre" id="nombreInput"/>
+            Apellido 
+            <input type="text" name="apellido" id="apellidoInput"/>
+            DNI 
+            <input type="text" name="dni" id="dniInput"/>
+            Sector 
+            <input type="text" name="sector" id="sectorInput"/>
+            Activo 
+            <select name="activo" id="activoSelect">
+                <option value="true">SI</option>
+                <option value="false">NO</option>
+            </select>
+            <button id="formButton">AGREGAR EMPLEADO</button>
+        </form>
+    </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Legajo</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>DNI</th>
+                <th>Sector</th>
+                <th>Fecha de Ingreso</th>
+                <th>Activo</th> 
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla">
+
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

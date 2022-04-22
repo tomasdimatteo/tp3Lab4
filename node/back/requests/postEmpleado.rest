@@ -1,0 +1,11 @@
+POST http://localhost:3001/empleados
+Content-Type: application/json
+
+{
+    "legajo" : 11,
+    "nombre" : "kyrie",
+    "apellido" : "irving",
+    "dni": 4353,
+    "sector": "4-A",
+    "activo": true
+}

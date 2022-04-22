@@ -1,0 +1,8 @@
+PUT http://localhost:3001/empleados/553532
+Content-Type: application/json
+
+{
+    "legajo" : 553532,
+    "dni" : 555454,
+    "nombre": "kevin"
+}
